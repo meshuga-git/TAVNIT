@@ -1,5 +1,5 @@
 I. General.
-This software package performs hierarchical clustering of samples based on transcriptomic (or any other numerical) data and subsequent extraction of signatures from the identified clusters. Clustering can be performed with specified constraints (must-links and cannot-links). The package is based on the Constrained–Divisive and Tjala algorithms, written in C++ and Python, and operates in the command line. The input data can be stored in various file formats, such as:
+This software package performs hierarchical clustering of samples based on transcriptomic (or any other numerical) data and subsequent extraction of signatures from the identified clusters. Clustering can be performed with specified constraints (must-links and cannot-links). The package is based on the Constrainedâ€“Divisive and Tjala algorithms, written in C++ and Python, and operates in the command line. The input data can be stored in various file formats, such as:
 - text formats for tabular data (.tsv, .csv, .dat, .counts)
 - electronic spreadsheet formats (.xlsx...)
 - data exchange formats (.json...)
@@ -24,7 +24,7 @@ The order number of the distance metrics
 2: Pearson metric
 3: Spearman metric
 4: Manhattan distance
-NB: The Pearson metric is the most suitable standard metric for analyzing transcriptomic Big Data.
+N.B.: The Pearson metric is the most suitable standard metric for analyzing transcriptomic Big Data.
 3. Perform clustering using a command like "make_clustering.exe clustering_results/ 2." This command creates result files for each iteration in the "clustering_results" folder.
 4. Display the hierarchy of the created clusters using the command "get_hierarchy.exe clustering_results." This command creates a file in the "clustering_results" folder showing which clusters each sample belongs to.
 5. Optionally, visualize the clustering results as a dendrogram using the command "python build_dendrogram.py" without parameters.
