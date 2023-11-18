@@ -1,10 +1,11 @@
 I. General.
-This software package performs hierarchical clustering of samples based on transcriptomic (or any other numerical) data and subsequently extracts signatures from the identified clusters. Clustering can be executed with specified constraints (i.e., must-links and cannot-links). The package is built upon the Constrained–Divisive and Tjala algorithms, written in C++ and Python, and can be operated from the command prompt. The input data can be provided in various file formats such as:
+This software package performs hierarchical clustering of samples based on transcriptomic (or any other numerical) data and subsequently extracts signatures from the identified clusters. Clustering can be executed with specified constraints (i.e., must-links and cannot-links). The package is built upon the Constrainedâ€“Divisive and Tjala algorithms, written in C++ and Python, and can be operated from the command prompt. The input data can be provided in various file formats such as:
 - text formats for tabular data (.tsv, .csv, .dat, .counts)
 - electronic spreadsheet formats (.xlsx...)
 - data exchange formats (.json...)
 - statistical formats (.dta, .sav, .por)
 - data storage formats (.h5, .parquet, .orc).
+Some input data are accessible at https://data.mendeley.com/datasets/rdhxwbhmvn/1
 
 II. Requirements.
 Visual Studio, MinGW, and Python are installed.
