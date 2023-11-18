@@ -5,7 +5,7 @@ This software package performs hierarchical clustering of samples based on trans
 - data exchange formats (.json...)
 - statistical formats (.dta, .sav, .por)
 - data storage formats (.h5, .parquet, .orc).
-Some input data are accessible at https://data.mendeley.com/datasets/rdhxwbhmvn/1
+An input dataset is accessible at https://data.mendeley.com/datasets/rdhxwbhmvn/1
 
 II. Requirements.
 Visual Studio, MinGW, and Python are installed.
