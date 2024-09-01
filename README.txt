@@ -35,7 +35,7 @@ V. Signature Extraction (count_variances.py, count_variances.exe, extract_cluste
 2. Navigate to the "clustering_results" folder.
 3. Specify the list of genes whose transcription level has to be used to generate signatures using one of the following commands:
 - "python count_variances.py None" to operate on the full list of genes
-- "python count_variances.py genes.txt" when utilizing a specific subgroup of gene.
+- "python count_variances.py genes.txt" when utilizing a specific subgroup of genes.
 The "genes.txt" file should be in UTF-8 format.
 4. Calculate the variances using the command "count_variances.exe total_data.csv."
 5. Generate a list of subclusters and the samples comprising each cluster using the command "python extract_clusters.py. Here, the "exit" command terminates only the "extract_clusters.py" command, not the entire pipeline.
