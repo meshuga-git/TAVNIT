@@ -84,7 +84,7 @@ def parse_data(mypath):
 if __name__ == '__main__':
 
     if len(sys.argv) < 2 or sys.argv[1] not in ['1', '2', '3', '4']: # distance metric not specified
-        print('Distance type required: 1 - euclidean, 2 - pearson, 3 - spearman, 4 - manhattan')
+        print('Distance metric required: 1 - euclidean, 2 - pearson, 3 - spearman, 4 - manhattan')
         sys.exit()
 
     folders_all = []
